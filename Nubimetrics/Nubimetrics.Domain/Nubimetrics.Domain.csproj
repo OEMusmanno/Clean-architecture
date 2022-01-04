@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nubimetrics.DalContracts\Nubimetrics.DalContracts.csproj" />
+    <ProjectReference Include="..\Nubimetrics.DomainContracts\Nubimetrics.DomainContracts.csproj" />
+    <ProjectReference Include="..\Nubimetrics.Entities\Nubimetrics.DalEntities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "P9oo9r+ufw7WaqkORGUwcBlQmkaqpzN8834YtDQ9fZpXQlMC5mkY/l7vsz4ZGRT4hq8AqdVXrXBAtQLWlyNaFQ==",
+  "success": true,
+  "projectFilePath": "E:\\Codigo\\New folder\\Nubimetrics\\Nubimetrics.DalContracts\\Nubimetrics.DalContracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Omar\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

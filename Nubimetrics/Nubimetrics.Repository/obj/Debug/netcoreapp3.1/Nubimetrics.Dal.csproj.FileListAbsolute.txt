@@ -1,0 +1,16 @@
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\bin\Debug\netcoreapp3.1\Nubimetrics.Dal.deps.json
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\bin\Debug\netcoreapp3.1\Nubimetrics.Dal.dll
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\bin\Debug\netcoreapp3.1\Nubimetrics.Dal.pdb
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\bin\Debug\netcoreapp3.1\Nubimetrics.DalContracts.dll
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\bin\Debug\netcoreapp3.1\Nubimetrics.DalEntities.dll
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\bin\Debug\netcoreapp3.1\Nubimetrics.DomainContracts.dll
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\bin\Debug\netcoreapp3.1\Nubimetrics.DalContracts.pdb
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\bin\Debug\netcoreapp3.1\Nubimetrics.DalEntities.pdb
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\bin\Debug\netcoreapp3.1\Nubimetrics.DomainContracts.pdb
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\obj\Debug\netcoreapp3.1\Nubimetrics.Dal.csprojAssemblyReference.cache
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\obj\Debug\netcoreapp3.1\Nubimetrics.Dal.AssemblyInfoInputs.cache
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\obj\Debug\netcoreapp3.1\Nubimetrics.Dal.AssemblyInfo.cs
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\obj\Debug\netcoreapp3.1\Nubimetrics.Dal.csproj.CoreCompileInputs.cache
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\obj\Debug\netcoreapp3.1\Nubimetrics.Dal.csproj.CopyComplete
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\obj\Debug\netcoreapp3.1\Nubimetrics.Dal.dll
+E:\Codigo\New folder\Nubimetrics\Nubimetrics.Repository\obj\Debug\netcoreapp3.1\Nubimetrics.Dal.pdb

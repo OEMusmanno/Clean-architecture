@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nubimetrics.DalContracts\Nubimetrics.DalContracts.csproj" />
+    <ProjectReference Include="..\Nubimetrics.DomainContracts\Nubimetrics.DomainContracts.csproj" />
+    <ProjectReference Include="..\Nubimetrics.Domain\Nubimetrics.Domain.csproj" />
+    <ProjectReference Include="..\Nubimetrics.Repository\Nubimetrics.Dal.csproj" />
+  </ItemGroup>
+
+</Project>
