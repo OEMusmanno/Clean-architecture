@@ -1,9 +1,0 @@
-E:\Codigo\New folder\Nubimetrics\Nubimetrics.Entities\bin\Debug\netcoreapp3.1\Nubimetrics.DalEntities.deps.json
-E:\Codigo\New folder\Nubimetrics\Nubimetrics.Entities\bin\Debug\netcoreapp3.1\Nubimetrics.DalEntities.dll
-E:\Codigo\New folder\Nubimetrics\Nubimetrics.Entities\bin\Debug\netcoreapp3.1\Nubimetrics.DalEntities.pdb
-E:\Codigo\New folder\Nubimetrics\Nubimetrics.Entities\obj\Debug\netcoreapp3.1\Nubimetrics.DalEntities.csprojAssemblyReference.cache
-E:\Codigo\New folder\Nubimetrics\Nubimetrics.Entities\obj\Debug\netcoreapp3.1\Nubimetrics.DalEntities.AssemblyInfoInputs.cache
-E:\Codigo\New folder\Nubimetrics\Nubimetrics.Entities\obj\Debug\netcoreapp3.1\Nubimetrics.DalEntities.AssemblyInfo.cs
-E:\Codigo\New folder\Nubimetrics\Nubimetrics.Entities\obj\Debug\netcoreapp3.1\Nubimetrics.DalEntities.csproj.CoreCompileInputs.cache
-E:\Codigo\New folder\Nubimetrics\Nubimetrics.Entities\obj\Debug\netcoreapp3.1\Nubimetrics.DalEntities.dll
-E:\Codigo\New folder\Nubimetrics\Nubimetrics.Entities\obj\Debug\netcoreapp3.1\Nubimetrics.DalEntities.pdb
