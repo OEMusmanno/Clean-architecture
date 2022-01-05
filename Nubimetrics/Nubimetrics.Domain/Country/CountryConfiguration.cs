@@ -1,10 +1,9 @@
 ﻿using Nubimetrics.DalContracts.Meli;
 using Nubimetrics.DalEntities.Country;
 using Nubimetrics.DomainContracts.Country;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Net;
 using System.Threading.Tasks;
+using System.Web.Http;
 
 namespace Nubimetrics.Domain.Country
 {

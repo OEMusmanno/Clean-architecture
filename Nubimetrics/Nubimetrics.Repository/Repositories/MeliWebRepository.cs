@@ -15,8 +15,7 @@ namespace Nubimetrics.Dal.Repositories.Meli
     {     
         public async Task<CountryDto> GetCountryAsync(string country)
         {
-            //return await GetDataAsync<CountryDto>(string.Format(ApiResource.MeliCountries, country), HttpMethod.Get);                  
-            return new CountryDto();
+           return await GetDataAsync<CountryDto>(string.Format(ApiResource.MeliCountries, country), HttpMethod.Get);        
         }
     }
 }

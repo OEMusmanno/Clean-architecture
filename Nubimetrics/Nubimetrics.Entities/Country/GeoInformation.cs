@@ -14,9 +14,9 @@ namespace Nubimetrics.DalEntities.Country
     public class Location 
     {
         [JsonProperty("Latitude")]
-        public Double latitude { get; set; }
+        public double latitude { get; set; }
 
         [JsonProperty("Longitude")]
-        public Double longitude { get; set; }
+        public double longitude { get; set; }
     }
 }
