@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Nubimetrics.DalEntities.SearchItem;
@@ -31,6 +32,7 @@ namespace Nubimetrics.Api.Controllers.SearchItem
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("{item}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> Get(string item)
         {
             var items = await _searchItemConfiguration.GetItemAsync(item);

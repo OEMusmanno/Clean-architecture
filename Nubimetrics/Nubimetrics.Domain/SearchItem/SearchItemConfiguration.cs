@@ -2,9 +2,6 @@
 using Nubimetrics.DalContracts.Meli;
 using Nubimetrics.DalEntities.SearchItem;
 using Nubimetrics.DomainContracts.SearchItem;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Nubimetrics.Domain.SearchItem
@@ -20,10 +17,10 @@ namespace Nubimetrics.Domain.SearchItem
             _meliWebRepository = meliWebRepository;
             _mapper = mapper;
         }
-        public async Task<ItemDto> GetItemAsync(string item)
+        public async Task<Item> GetItemAsync(string item)
         {
             var result = await _meliWebRepository.GetItemAsync(item);
-            return _mapper.Map<ItemDto>(result);
+            return _mapper.Map<Item>(result);
         }
     }
 }

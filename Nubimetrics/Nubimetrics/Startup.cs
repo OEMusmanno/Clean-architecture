@@ -21,13 +21,21 @@ namespace Nubimetrics
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            var mapperConfig = new MapperConfiguration(m => 
+            var mapperConfig = new MapperConfiguration(m =>
             {
                 m.AddProfile(new MappingBuilder());
             });
 
             IMapper mapper = mapperConfig.CreateMapper();
             services.AddSingleton(mapper);
+            services.AddSwaggerGen(config =>
+               config.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+               {
+                   Title = "Servicio para obtener informacion de Endpoints de Mercado Libre",
+                   Version = "version1"
+               }
+               )
+           );
         }
 
 
@@ -39,7 +47,11 @@ namespace Nubimetrics
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseSwagger();
+            app.UseSwaggerUI(config =>
+            {
+                config.SwaggerEndpoint("/swagger/v1/swagger.json", "V1 Docs");
+            });
             app.UseHttpsRedirection();
 
             app.UseRouting();

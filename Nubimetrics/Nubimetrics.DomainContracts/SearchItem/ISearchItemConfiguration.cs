@@ -8,6 +8,6 @@ namespace Nubimetrics.DomainContracts.SearchItem
 {
     public interface ISearchItemConfiguration
     {
-        Task<ItemDto> GetItemAsync(string Item);
+        Task<Item> GetItemAsync(string Item);
     }
 }

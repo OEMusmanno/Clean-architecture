@@ -12,16 +12,7 @@ namespace Nubimetrics.Dal.Repositories
 {
     public abstract class BaseWEBAPIRepository
     {
-        protected BaseWEBAPIRepository()
-        {            
-        }
-
         protected virtual async Task<T> GetDataAsync<T>(string url, HttpMethod httpMethod)
-        {
-            return await GetStreamAsync<T>(url, httpMethod);
-        }
-
-        protected virtual async Task<T> GetStreamAsync<T>(string url, HttpMethod httpMethod)
         {
             using (var httpClient = new HttpClient())
             {
