@@ -27,7 +27,6 @@ namespace Nubimetrics
                     webBuilder.UseStartup<Startup>();
                 })
             .UseServiceProviderFactory(new AutofacServiceProviderFactory())
-            .ConfigureWebHost(webBuilder => { webBuilder.UseStartup<Startup>(); })
             .ConfigureContainer<ContainerBuilder>(container => CompositionRoot.Build(container));
     }
 }

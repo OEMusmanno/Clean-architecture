@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Nubimetrics.Dal.Repositories;
 using Nubimetrics.Dal.Repositories.Meli;
 using Nubimetrics.DalContracts.Meli;
 using System;
@@ -12,6 +13,7 @@ namespace Nubimetrics.Composition
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<MeliWebRepository>().As<IMeliWebRepository>();
+            builder.RegisterType<MeliFileStreamRepository>().As<IMeliFileStreamRepository>();
         }
     }
 }
