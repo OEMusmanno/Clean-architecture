@@ -16,21 +16,17 @@ namespace Nubimetrics.Dal.Repositories
         {            
         }
 
-        protected virtual async Task<T> GetDataAsync<T>(string url, HttpMethod httpMethod, T data = default(T))
+        protected virtual async Task<T> GetDataAsync<T>(string url, HttpMethod httpMethod)
         {
-            return await GetStreamAsync<T>(url, httpMethod, data);
+            return await GetStreamAsync<T>(url, httpMethod);
         }
 
-        protected virtual async Task<T> GetStreamAsync<T>(string url, HttpMethod httpMethod, T data = default(T))
+        protected virtual async Task<T> GetStreamAsync<T>(string url, HttpMethod httpMethod)
         {
             using (var httpClient = new HttpClient())
             {
                 using (var httpMessage = new HttpRequestMessage(httpMethod, new Uri(url)))
                 {
-                    if (!EqualityComparer<T>.Default.Equals(data, default(T)))
-                    {
-                        httpMessage.Content = new StringContent(JsonSerializer.Serialize(data), Encoding.UTF8, MediaTypeNames.Application.Json);
-                    }
                     try
                     {
                         var responseMessage = (await httpClient.SendAsync(httpMessage)).EnsureSuccessStatusCode();
@@ -38,12 +34,10 @@ namespace Nubimetrics.Dal.Repositories
                         var responseContentStream = await responseMessage.Content.ReadAsStreamAsync();
 
                         return await JsonSerializer.DeserializeAsync<T>(responseContentStream, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-
-
                     }
                     catch (Exception e)
                     {
-                        var exceeption = e.Message;
+                        var exception = e.Message;
                         throw;
                     }
                 }

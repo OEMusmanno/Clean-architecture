@@ -11,7 +11,6 @@ namespace Nubimetrics.Composition
     {
         protected override void Load(ContainerBuilder builder)
         {
-
             builder.RegisterType<MeliWebRepository>().As<IMeliWebRepository>();
         }
     }

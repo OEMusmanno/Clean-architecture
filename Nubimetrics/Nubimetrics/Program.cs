@@ -20,7 +20,6 @@ namespace Nubimetrics
         {
             CreateHostBuilder(args).Build().Run();
         }
-
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
@@ -30,6 +29,5 @@ namespace Nubimetrics
             .UseServiceProviderFactory(new AutofacServiceProviderFactory())
             .ConfigureWebHost(webBuilder => { webBuilder.UseStartup<Startup>(); })
             .ConfigureContainer<ContainerBuilder>(container => CompositionRoot.Build(container));
-    
     }
 }
