@@ -14,6 +14,7 @@ namespace Nubimetrics.Composition
         {
             builder.RegisterType<MeliWebRepository>().As<IMeliWebRepository>();
             builder.RegisterType<MeliFileStreamRepository>().As<IMeliFileStreamRepository>();
+            builder.RegisterType<MeliFileStreamRepository>().As<IMeliFileStreamRepository>();
         }
     }
 }
